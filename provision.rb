@@ -10,7 +10,7 @@ with_machine_options({
                          :tags => ["fog", "http-server"],
                          :metadata => {
                              "newrelic-license-key" => ENV["NEWRELIC_LICENSE_KEY"]
-                             "startup-script-url" => ""}
+                             "startup-script-url" => "https://raw.githubusercontent.com/gcodetec/chef-provision-script/master/startup.sh"}
                        }
                      })
 
